@@ -1,0 +1,66 @@
+h1 {
+    font-size: 30px;
+    color:rgb(34, 100, 100);
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 4px dashed rgb(0, 0, 0);
+    padding: 8px;
+}
+.main-menu {
+    display: flex;
+    align-items: center;
+    background-color: rgba(231, 222, 222, 0.89);
+    
+}
+
+.opt-menu {
+    justify-content: flex-end;
+    width:100%;
+    text-decoration: none;
+}
+
+.opt-menu li{
+    list-style: none;
+    width: 220px;
+    justify-content: center;
+    text-decoration: none;
+    color:white;
+}
+.opt-menu a:hover{
+    background-color: white;
+    color: rgb(16, 134, 163);
+    border: 5px white solid;
+
+}   
+
+.formcontact {
+    width: 40%;
+    margin: auto;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 30px;
+}
+.input {
+    margin-bottom:2%;
+}
+.input div{
+    width: 30%;
+    float: left;
+}
+.form-button {
+    text-align: center;
+}
+.form-button input {
+    width: 18%;
+    height: 40px;
+    border: 2px rgba(12, 80, 92, 0.897) solid;
+    background-color: rgba(35, 108, 150, 0.897);
+    color: white;
+}
